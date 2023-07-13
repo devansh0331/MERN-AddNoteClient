@@ -1,0 +1,19 @@
+#card{
+    width: 15rem;
+    height: inherit;
+    border: 2px solid black;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border-radius: 1.3rem;
+}
+
+#card:hover{
+    border: 2px solid red;   
+    color: red;
+}   
+
+#card>h3{
+    font-size: 1.5rem;
+}

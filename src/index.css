@@ -1,0 +1,32 @@
+body {
+  margin: 0 auto;
+  width: 70%;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width : 600px) {
+  body{
+      width: 100vw;
+  }
+  #addNote button{
+    font-size: 1rem !important;
+    padding: 8px;
+    width: 30% !important;
+  }
+
+  .nContainer{
+    display: grid;
+    grid-template-columns: auto !important;
+  }
+  
+}

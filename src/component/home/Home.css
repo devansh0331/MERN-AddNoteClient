@@ -1,0 +1,56 @@
+#home{
+    padding-top: 3rem;
+    
+}
+#home>span{
+    font-size: 3rem;
+
+}
+
+#addNote{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#addNote> div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left !important;
+    width: 70%;
+    margin-bottom: 2rem;
+    
+    
+}
+
+#addNote >div >input{
+    height: 2rem;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    
+}
+
+#addNote >div >textarea{
+    height: 10rem;
+    border: 1px solid black;
+    
+}
+
+#addNote button{
+    width: 10%;
+    /* padding: 1rem; */
+ 
+   
+    align-items: flex-end;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+}

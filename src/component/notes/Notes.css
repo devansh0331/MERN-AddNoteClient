@@ -1,0 +1,13 @@
+/* #notes{
+    display: flex;
+    flex-direction: column;
+} */
+
+.nContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
