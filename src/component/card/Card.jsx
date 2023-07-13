@@ -5,6 +5,7 @@ function Card(props) {
     <div id='card'>
       <h3>{props.title}</h3>
       <p>{props.desc}</p>
+      <p>By: {props.user}</p>
     </div>
   )
 }
