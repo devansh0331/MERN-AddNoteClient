@@ -25,7 +25,7 @@ function Admin() {
 
       const handleVerify = (e) => {
         e.preventDefault()
-        if(answer === "Sneha"){
+        if(answer === "6232275431"){
             setSuccMsg('Access Granted!')
             setErrMsg('')
             setTimeout(() => {
@@ -53,7 +53,7 @@ function Admin() {
          {!isAns &&   <form id='addNote' onSubmit={handleVerify}>
             <div>
 
-<label>Write the name of Admin's Crush*</label>
+<label>Write the Admin's 10-digit phone number*</label>
 <input name='answer' onChange={(e) => {setanswer(e.target.value)}} value={answer} type="text" />
 </div>
 <button>Verify</button>
