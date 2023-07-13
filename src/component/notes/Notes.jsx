@@ -50,7 +50,7 @@ function Notes() {
       
       {userNotes.map((item,key) => {
           return (
-              <Card key={key} title={item.title} desc={item.description} />
+              <Card key={key} user={item.userId} title={item.title} desc={item.description} />
               )
             })}
             </div>}
