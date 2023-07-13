@@ -30,7 +30,7 @@ function Signup() {
 
    
     try{
-      const response = await fetch('https://add-note-yprd.onrender.com//newUser',{
+      const response = await fetch('https://add-note-yprd.onrender.com/newUser',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

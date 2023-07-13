@@ -24,7 +24,7 @@ function Notes() {
     //     console.log(userName);
     //     setUserName(cuser.uName)
     //   }
-        const Notes_URL = `https://add-note-yprd.onrender.com/${UserName}`
+        const Notes_URL = `https://add-note-yprd.onrender.com/readNotes/${UserName}`
       const getNotes = async () => {
 
 
@@ -40,7 +40,7 @@ function Notes() {
       useEffect(() => {
         // getCurrentUser()
         getNotes()
-      }, [])
+      }, [UserName])
     //   
       
   return (
